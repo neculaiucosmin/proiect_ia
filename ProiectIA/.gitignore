@@ -1,0 +1,45 @@
+# .gitignore
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+*.so
+
+# Folders
+_tmp*
+/test/*
+/build/*
+/cmake-*
+
+# IDE - JetBrains Rider
+.idea/
+*.iml
+*.iws
+
+# Many IDEs store metadata in hidden directories
+.*.swp
+.*.swo
+.*.swn
+.*.bak
